@@ -11,8 +11,8 @@ using ReactAPIDemo.Data;
 namespace ReactAPIDemo.Migrations
 {
     [DbContext(typeof(ReactAPIDemoContext))]
-    [Migration("20240228025604_init")]
-    partial class init
+    [Migration("20240228040254_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
